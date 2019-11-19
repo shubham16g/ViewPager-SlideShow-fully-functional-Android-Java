@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slide_show"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <RadioGroup
+        android:id="@+id/slide_int_group"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/slide_int_1"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/slide_int"
+            android:buttonTint="@android:color/transparent"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/slide_int_2"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/slide_int"
+            android:buttonTint="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/slide_int_3"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/slide_int"
+            android:buttonTint="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/slide_int_4"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/slide_int"
+            android:buttonTint="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/slide_int_5"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/slide_int"
+            android:buttonTint="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/slide_int_6"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/slide_int"
+            android:buttonTint="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/slide_int_7"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/slide_int"
+            android:buttonTint="@android:color/transparent" />
+
+    </RadioGroup>
+</RelativeLayout>
